@@ -1,0 +1,19 @@
+programa 
+{
+	funcao inicio() {
+	
+		cadeia procura[3][3] = {
+		    {"Walso", "Vila", "Volley"},
+		    {"Wilson", "Valdo", "Wally"},
+		    {"Wallace", "Willy", "Vasco"}
+		}
+		
+		para(inteiro i = 0; i< 3; i++){
+		    para(inteiro c = 0; c< 3; c++){
+		        se(procura[i][c] == "Wally"){
+		            escreva("Wally está na matriz.Ela está na linha ", i + 1, " na coluna ", c + 1)
+		        }
+		    }
+		}
+	}
+}
